@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Health Bot</title>
+    <link rel="stylesheet" href="\static\static.css">
+</head>
+<body>
+
+<div class="chat-container">
+
+    <div class="header">
+        🩺 Healthy Buddy
+        <div class="sub">Your friendly kid’s health helper</div>
+    </div>
+
+    <div id="chatbox" class="chatbox"></div>
+
+    <!-- Typing animation -->
+    <div id="typing" class="typing hidden">
+        <div class="dot"></div><div class="dot"></div><div class="dot"></div>
+        <span>Bot is typing…</span>
+    </div>
+
+    <div class="input-area">
+        <input id="userInput" type="text" placeholder="Type your question..." onkeypress="checkEnter(event)">
+        <button id="sendBtn" onclick="sendMessage()">➤</button>
+    </div>
+
+</div>
+
+<script src="\static\script.js"></script>
+</body>
+
+</html>
