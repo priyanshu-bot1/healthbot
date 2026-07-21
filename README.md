@@ -1,4 +1,4 @@
-# 🩺 Healthy Buddy – AI-Powered Student Health Assistant
+# 🩺 Healthy Bot – AI-Powered Student Health Assistant
 
 Healthy Buddy is an AI-powered health chatbot designed to provide students with reliable health awareness and educational guidance in a simple, interactive, and child-friendly interface.
 
@@ -46,7 +46,7 @@ Healthy Buddy is an AI-powered health chatbot designed to provide students with 
 ## 📁 Project Structure
 
 ```
-HealthyBuddy/
+HealthyBot/
 │
 ├── app.py
 ├── .env
