@@ -34,7 +34,6 @@ Healthy Buddy is an AI-powered health chatbot designed to provide students with 
 
 ### AI Integration
 - Groq API
-- Moonshot AI (Kimi K2 Instruct)
 
 ### Libraries
 - Flask
